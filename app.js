@@ -10,7 +10,7 @@ app.get('/', function(req, res) {
 })
 
 app.get('/data', function(req, res) {
-	scrapeIt(' http://www.indexpdx.com/new-arrival/?sort=newest', {
+	scrapeIt(' ttp://www.indexpdx.com/new-arrival/?sort=newest', {
 		kickList: {
 			listItem: '.ProductList li',
 			data: {
